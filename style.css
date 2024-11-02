@@ -1,0 +1,193 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+}
+
+.nav__item {
+    margin-left: 20px;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.nav__link:hover {
+    color: #f4d03f;
+}
+
+/* Section Titles */
+.section__title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.section__title--intro,
+.section__title--services,
+.section__title--about,
+.section__title--work {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Introduction Section */
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.intro__img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.section__subtitle {
+    color: #666;
+}
+
+/* Services Section */
+.my-services {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.service {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #f4d03f;
+}
+
+/* About Section */
+.about-me {
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-me__body {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-me__img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* My Work Section */
+.my-work {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Skills Section */
+.about-me2 {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list li {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer__link {
+    color: #f4d03f;
+    text-decoration: none;
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-list__item {
+    margin: 0 10px;
+}
+
+.social-list__link {
+    color: #fff;
+}
+
+.social-list__link:hover {
+    color: #f4d03f;
+}

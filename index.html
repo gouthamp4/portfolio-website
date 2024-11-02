@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Goutham's Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+   <!--         <div class="logo">
+                <img src="img/profile.jpg" alt="Goutham Reddy Potlacheruvu" class="intro__img">
+            </div>        -->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Goutham Reddy Potlacheruvu</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Data Engineer</p>
+            <img src="img/profile.jpg" alt="a picture of Goutham smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Data Engineer</h3>
+                    <p>As a Data Engineer, I focus on building and optimizing data pipelines to ensure reliable data flow and accessibility across the organization. My work involves monitoring and troubleshooting data processes, optimizing SQL queries, and managing cloud infrastructure to support high-performance data operations. Collaborating closely with data analysts and scientists, I design and implement data transformations tailored to their project needs.</p>
+            <p>I also automate workflows using tools like Apache Airflow and ensure data accuracy through rigorous quality checks. By documenting processes and exploring new tools, I help maintain an efficient, scalable data environment aligned with business objectives.</p>
+
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Automation</h3>
+                    <p>I automate data workflows and integrate DevOps practices to achieve efficient CI/CD deployment, using tools like Apache Airflow for orchestrating ETL processes and AWS Lambda for serverless automation of data tasks.</p>
+            <p>I employ GitHub Actions and Jenkins for version control and continuous integration, ensuring that updates to data pipelines are tested and deployed seamlessly. For infrastructure management, I leverage Terraform to automate resource provisioning across AWS environments, while AWS CodePipeline manages CI/CD workflows, enabling consistent, error-free deployments. Together, these automation tools streamline data processing, reduce manual intervention, and support a scalable, reliable data infrastructure.</p>
+                        </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>API Development</h3>
+                    <p>I develop REST APIs and microservices to facilitate seamless data access and processing across applications. Using frameworks like FastAPI and Flask with Python, I design APIs that allow real-time data retrieval, updates, and integrations, enabling other applications to interact with data systems efficiently.</p>
+            <p>I also utilize AWS API Gateway to manage and deploy APIs, ensuring scalability and secure access control. By implementing these APIs and microservices, I create modular, reusable endpoints that streamline data workflows, support data-driven applications, and enhance cross-functional data accessibility across the organization.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           
+           
+           <div class="about-me__body">
+            <p>I am a skilled Data Engineer with a strong background in designing scalable data architectures, developing robust ETL pipelines, and implementing effective data solutions across AWS and Azure environments. Proficient in tools like Snowflake, Databricks, Apache Spark, Airflow, and DBT, I excel at optimizing data workflows and transforming complex datasets into actionable insights for business intelligence.</p>
+            <p>In my recent roles, I have designed data Lakehouse architectures using Azure Synapse and Databricks with Medallion architecture, enabling high-performance data processing and real-time analytics. My experience with Snowflake includes setting up automated data ingestion using Snowpipe, designing data models, and using DBT for transformations to enhance data accessibility and query efficiency.</p>
+            <p>With expertise in creating RESTful APIs using FastAPI and AWS API Gateway and automating deployments through Terraform and CI/CD pipelines with Jenkins and Azure DevOps, I bring a comprehensive understanding of cloud-based data infrastructure. I am passionate about leveraging data to drive strategic decisions, enhance processes, and build scalable, reliable data systems that support organizational success.</p>
+               
+           </div>
+           
+           <img src="img/my.jpg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+          <!--  <div class="portfolio">    -->
+            <div class="about-me__body">
+                <li>I have been deeply engaged in building comprehensive, end-to-end data pipelines across Azure and AWS environments, creating robust and scalable data architectures tailored to meet organizational needs. Leveraging Azure Synapse, Databricks, and Data Lake Storage, I developed a powerful data lakehouse architecture on Azure, enabling seamless data ingestion, transformation, and storage, optimized for real-time analytics and large-scale data processing. On AWS, I designed and implemented streaming data workflows using AWS Kinesis for real-time data capture and Redshift for structured data storage, ensuring data consistency and accessibility. By integrating Terraform for infrastructure automation and CI/CD pipelines with Jenkins and GitHub Actions, I ensured efficient, secure, and repeatable deployments. Working closely with data analysts, I transformed raw datasets into visualization-ready formats, empowering actionable insights, and supporting compliance and decision-making. My work across Azure and AWS has driven operational excellence and maximized the value of data throughout the organization.</li>
+  <!--           <div class="section-heading reveal-bar">
+                 <h3>Skills</h3>
+                 ::after
+             </div>
+             <div class="subsection">
+                    <h5>Languages</h5>
+                    <ul class="skills-list">
+                      <li>Python</li>
+                      <li>C++</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                      <li>Java</li>
+                    </ul>
+                </div>         -->
+                <!-- Portfolio item 01 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 02 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 03 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 04 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 05 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 06 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 07 
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 08 
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 09 
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                 Portfolio item 0 0
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+                </a>   -->            
+            </div>  
+        </section>
+        
+          
+        <!-- MY SKILLS -->
+             <section class="about-me2" id="skills">   
+              
+                <h2 class="about2">My Skills</h2> 
+              
+        <!--        <p class="section__subtitle section__subtitle--about">Devops & Automation engineer based out of HYD</p> -->
+                
+              <!--  <div class="about-me__body">   -->  
+                        <section id="section_skill">
+                                <div class="container">
+                                    <div class="section-heading">
+                                     <!--   <h3>Skills</h3>  -->
+                                    </div>
+                                    <div class="subsection">
+                                        <h3>Languages </h3>
+                                        <ul class="skills-list">
+                                            <li>Python</li><li>C++</li>
+                                            <li>C</li><li>Java</li>
+                                            <li>SQL</li><li>HTML5</li><li>CSS</li><li>JavaScript</li>
+                                        </ul>
+                                    </div>
+                                    <div class="subsection">
+                                        <h3>Server-side technologies</h3>
+                                        <ul class="skills-list">
+                                            <li>SQL Server</li><li>Amazon Redshift</li>
+                                            <li>Spring Boot</li><li>MySQL</li><li>MongoDB</li><li>Snowflake</li><li>Azure Synapse</li><li>Apache Spark</li><li>Apache Kafka</li><li>Hadoop</li><li>AWS Glue</li><li>Databricks</li><li>Azure Data Factory</li>
+                                        </ul>
+                                    </div>
+                                    <div class="subsection">
+                                        <h3>Client-side Technologies</h3>
+                                        <ul class="skills-list">
+                                            <li>Power BI</li>
+                                            <li>Tableau</li><li>Excel</li><li>CSS</li>
+                                        </ul>
+                                    </div>
+                                    <div class="subsection">
+                                        <h3>Other tools and techniques</h3>
+                                        <ul class="skills-list">
+                                            <li>Git</li><li>GitHub</li><li>GitHub Actions</li><li>CI/CD</li>
+                                            <li>Linux</li><li>Docker</li><li>Kubernetes</li><li>DBT</li><li>Jenkins</li><li>Azure</li><li>RBAC</li><li>OLAP & OLTP</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                    
+                    
+                </div>
+                
+                          
+            </section>
+             
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:gouthamreddyp09@gmail.com" class="footer__link">gouthamreddyp09@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/goutham-reddy-p-5885a014a/">
+                        <i class="fab fa-linkedin-in" style='font-size:24px'> </i>
+                    
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https:github.com/gouthamp4">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        <link rel="stylesheet" href="style.css">
+<script src="index.js" defer></script>
+
+    </body>
+</html>

@@ -7,7 +7,6 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #333;
     line-height: 1.6;
 }
 
@@ -57,9 +56,13 @@ header {
 .section__title--services,
 .section__title--about,
 .section__title--work {
-    color: #333;
+    color:black;
     text-align: center;
     margin: 20px 0;
+    
+}
+.section__subtitle {color: black;
+font-size: 24px;
 }
 
 /* Introduction Section */
@@ -72,10 +75,6 @@ header {
     width: 150px;
     border-radius: 50%;
     margin-top: 20px;
-}
-
-.section__subtitle {
-    color: #666;
 }
 
 /* Services Section */
